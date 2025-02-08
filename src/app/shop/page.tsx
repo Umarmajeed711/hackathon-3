@@ -1,4 +1,3 @@
-import { Image } from "react-bootstrap";
 import "./shop.css";
 import { HeroSection } from "../components/HeroSection";
 import { Properties } from "../components/properties";

@@ -1,9 +1,4 @@
 import "../shop/shop.css";
-import { HeroSection } from "../components/HeroSection";
-import { Properties } from "../components/properties";
-import { HiAdjustmentsHorizontal } from "react-icons/hi2";
-import { HiViewGrid } from "react-icons/hi";
-import { BsViewList } from "react-icons/bs";
 import { Image } from "react-bootstrap";
 import Link from "next/link";
 import { ProductType } from "@/src/types/product";
