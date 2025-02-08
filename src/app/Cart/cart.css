@@ -1,0 +1,150 @@
+
+
+.cartHeader{
+    background-color: #FFF9E5;
+}
+
+.cartImage{
+    background-color: #FBEBB5;
+    border-radius: 5px;
+}
+.productInfo{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+  
+.cartTotal{
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+}
+
+.shoppingTotal{
+color: #B88E2F;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+
+
+}
+.checkOutButton{
+    padding: 7px 30px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.checkOutButton:hover , .checkOutButton:active{
+    background-color: #9F9F9F;
+    box-shadow: 0 0 5px #000;
+}
+
+.cartForPc{
+    display: block;
+}
+.cartForMobile{
+    display: none;
+}
+.remove{
+    
+   color: #B88E2F;
+   font-size: 30px;
+   cursor: pointer;
+   transition: all .3s;
+}
+.remove:hover , .remove:active{
+    color: red;
+    box-shadow: 0 0 5px red;
+}
+@media (max-width:992px){
+
+    .productInfo{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .cartTotal{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        }
+        
+        .shoppingTotal{
+        color: #B88E2F;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        
+        
+        }
+
+}
+@media (max-width:768px){
+    .productInfo{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .cartTotal{
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+        }
+        
+        .shoppingTotal{
+        color: #B88E2F;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        
+        
+        }
+    
+}
+@media (max-width:575px){
+    
+    .cartForMobile{
+        display: block;
+        border: 1px solid black;
+        box-shadow: 0 0 5px rgb(0,0,0) !important;
+    }
+    .cartForPc{
+        display: none;
+    }
+    .mobileFields{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid black;
+        box-shadow: 0 0 3px rgb(0,0,0) !important;
+        margin: 10px;
+    }
+    .productInfo{
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+    .cartTotal{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        }
+        
+        .shoppingTotal{
+        color: #B88E2F;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    .checkOutButton{
+        padding: 10px 20px;
+        border: 1px solid black;
+        background-color: transparent;
+        border-radius: 5px;
+        transition: all .3s;
+    }
+}

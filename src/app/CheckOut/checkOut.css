@@ -1,0 +1,231 @@
+.username {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.inputField {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #9f9f9f;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.inputField:focus,
+.inputField:active {
+  box-shadow: 0 0 5px #9f9f9f;
+}
+
+.billingHeading {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 54px;
+}
+
+.totalHeading {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.totalPrice {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #b88e2f;
+}
+
+.productName {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+.subTotal {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.bankDescription {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: justified;
+  color: #9f9f9f;
+}
+
+.policyDetails {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.privacyPolicy {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.PlaceOrderButton {
+  padding: 7px 30px;
+  border: 1px solid black;
+  background-color: transparent;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.PlaceOrderButton:hover,
+.PlaceOrderButton:active {
+  background-color: #9f9f9f;
+  box-shadow: 0 0 5px #000;
+}
+
+.orderDetail{
+  background-color: #faf4f4; 
+}
+.requiredError {
+  color: red;
+  margin: 0;
+  font-size: 12px;
+}
+
+@media (max-width: 992px) {
+  .username {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .productName {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #9f9f9f;
+  }
+
+  .PlaceOrderButton {
+    padding: 3px 15px;
+  }
+  .bankDescription {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+  
+  .policyDetails {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  .privacyPolicy {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+
+  .totalHeading {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  .totalPrice {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #b88e2f;
+  }
+  .subTotal {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 768px) {
+  .username {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .totalHeading {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
+  .totalPrice {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #b88e2f;
+  }
+}
+
+@media (max-width: 575px) {
+  .billingHeading {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+  }
+  .username {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  .inputField {
+     padding: 7px; 
+     font-size: 16px !important;
+  }
+
+  .PlaceOrderButton {
+    padding: 10px 15px;
+  }
+
+  .policyDetails {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  .privacyPolicy {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+
+  .totalHeading {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+
+  .totalPrice {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #b88e2f;
+  }
+
+  .productName {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    color: #9f9f9f;
+  }
+
+  .subTotal {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  .bankDescription {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+}

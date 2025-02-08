@@ -1,0 +1,554 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+.main {
+  overflow: hidden;
+  width: 100%;
+  font-family: "Poppins", "sans-serif";
+}
+
+/* hero section */
+
+.heroSection {
+  background-color: #fbebb5;
+  height: 900px;
+  display: flex !important;
+  align-items: center;
+}
+
+.heroTitle {
+  margin-left: 100px;
+  width: "440px";
+}
+
+/* h1 for hero */
+
+.h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 54px !important;
+  font-weight: 500;
+  /* line-height: 96px; */
+}
+
+/* undrline shop button */
+.underButton {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px !important;
+  font-weight: 500;
+  line-height: 36px;
+  border-bottom: 1px solid black;
+  padding: 3px;
+  transition: all 0.3s;
+}
+
+.underButton:hover,
+.underButton:active {
+  border: none;
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+
+.heroImage {
+  /* width={833} height={900} */
+  /* width: 833px; */
+  width: 100%;
+  height: 900px;
+}
+/* sideTableDiv */
+
+.sideTableDiv {
+  height: 672px;
+  background-color: #faf4f4;
+}
+
+.sideDiv {
+  height: 562px;
+  /* width: 605px; */
+  /* width: 45%; */
+}
+
+.side {
+  margin-top: -150px;
+  padding-left: 70px;
+}
+.sideTable{
+  font-size: 24px;
+}
+
+/* Top pics for you */
+
+.topPics {
+  height: 777px;
+}
+
+.toppicspara {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #9f9f9f;
+}
+
+
+.mycards {
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.mycards:hover,
+.mycards:active {
+  transform: translateY(-10px);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+}
+
+/* asgardSofa */
+
+.asgardSofa {
+  background-color: #fff9e5;
+  /* height: 639px; */
+  height: 700px;
+}
+
+.newArrivals {
+  /* width: 331px; */
+  height: 205px;
+  text-align: center;
+}
+
+.newArrivalHeading {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.asgardHeading {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.orderButton {
+  border: 1px solid black;
+  transition: all 0.3s;
+  padding: 15px 30px;
+}
+
+.orderButton:hover,
+.orderButton:active {
+  background-color: #000;
+  color: #fff9e5;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+/* Our Blogs */
+.topPics{
+    height:679px;
+}
+.article{
+  height: 555px;
+  display: flex;
+  justify-content: space-between;
+}
+.blogImage{
+  height: 70%;
+  width: 100%;
+}
+.blogTime{
+  display: flex;
+  justify-content: center;
+  gap: 7px !important;
+}
+.time{
+  font-size: 22px;
+  font-weight: 500;
+}
+
+/* Our Instagram  */
+.ourInstagram {
+  height: 450px;
+  background-color: #faf4f4;
+  background-image: url("/OurInstagram/Group 43.png ");
+}
+
+.instaHeading {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90px;
+}
+
+.instaFollow {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.followUs {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50px;
+  background-color: #faf4f4;
+  box-shadow: 0 0 3px rgb(0, 0, 0);
+  padding: 10px 40px;
+  transition: all 0.3s;
+}
+
+.followUs:hover,
+.followUs:active {
+  background-color: #9f9f9f;
+  color: #fff;
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+/* hide on pc */
+.hideOnPC{
+  display: none;
+}
+
+
+/* Responve Page */
+
+@media (max-width: 1399px) {
+  /* hero section */
+  .heroSection {
+    height: 800px;
+  }
+
+
+  .heroTitle {
+    margin-left: 100px;
+    width: "440px";
+  }
+
+  .heroImage {
+    width: 100%;
+    height: 800px;
+  }
+
+
+}
+
+@media (max-width: 1199px) {
+  /* hero section */
+
+  .heroSection {
+    background-color: #fbebb5;
+    height: 700px;
+    display: flex !important;
+    align-items: center;
+  }
+
+  .heroTitle {
+    margin-left: 70px;
+    width: "440px";
+  }
+
+  /* h1 for hero */
+
+.h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px !important;
+  font-weight: 500;
+  /* line-height: 96px; */
+}
+
+  .heroImage {
+    width: 100%;
+    height: 750px;
+  }
+
+
+ 
+  
+}
+
+@media (max-width: 992px) {
+  /* hero section */
+
+  .heroSection {
+    background-color: #fbebb5;
+    height: 600px;
+    display: flex !important;
+    align-items: center;
+  }
+
+  .heroTitle {
+    margin-left: 50px;
+  }
+
+  .heroImage {
+    width: 100%;
+    height: 650px;
+  }
+
+  /* h1 for hero */
+
+.h1 {
+
+  font-size: 36px !important;
+  font-weight: 500;
+  /* line-height: 85px; */
+}
+/* undrline shop button */
+.underButton {
+  font-size: 16px !important;
+  font-weight: 500;
+  line-height: 34px;
+  border-bottom: 1px solid black;
+  padding: 2px;
+}
+
+/* asgardSofa */
+
+.asgardSofa {
+  height: 500px;
+}
+
+/* .asgardHeight{
+  height: 300px;
+} */
+.newArrivals {
+  /* width: 70%; */
+  height: 230px;
+  text-align: center;
+}
+
+.newArrivalHeading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.asgardHeading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.orderButton {
+  border: 1px solid black;
+  transition: all 0.3s;
+  padding: 10px 20px;
+}
+
+/* Our Blogs */
+.topPics{
+  height:550px;
+}
+.article{
+height: 450px;
+}
+  
+}
+
+
+@media (max-width: 768px) {
+  /* hero section */
+
+  .heroSection {
+    
+    height: 500px;
+  }
+
+  .heroTitle {
+    margin-left: 50px;
+  }
+
+  .heroImage {
+    width: 100;
+    height: 500px;
+  }
+   /* h1 for hero */
+
+.h1 {
+  font-size: 27px !important;
+  font-weight: 500;
+  line-height: 30px;
+}
+/* undrline shop button */
+.underButton {
+  font-size: 12px !important;
+  font-weight: 500;
+  line-height: 25px;
+
+}
+/* undrline shop button */
+
+
+/* asgardSofa */
+
+.asgardSofa {
+  height: 450px;
+}
+
+.asgardHeight{
+  height: 400px;
+}
+.newArrivals {
+  height: 230px;
+  text-align: center;
+}
+
+.newArrivalHeading {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.asgardHeading {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+.orderButton {
+  border: 1px solid black;
+  transition: all 0.3s;
+  padding: 3px 6px;
+}
+
+/* Our Blogs */
+.topPics{
+  height:470px;
+}
+.article{
+height: 400px;
+}
+.blogImage{
+  height: 60%;
+  width:100%;
+
+}
+.blogData{
+  font-size: 12px;
+}
+.blogTime{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0 !important;
+}
+}
+
+@media (max-width: 575px) {
+  /* hero section */
+
+  .heroSection {
+    background-color: #fbebb5;
+    height: 300px;
+    display: flex !important;
+    align-items: center;
+  }
+
+  .heroTitle {
+    margin-left: 30px;
+  }
+
+  .heroImage {
+    width: 100%;
+    height: 300px;
+  }
+
+    /* h1 for hero */
+
+.h1 {
+  font-size: 14px !important;
+  line-height: 18px;
+}
+/* underline shop button */
+.underButton {
+  font-size: 12px !important;
+  font-weight: 400;
+  line-height: 20px;
+
+}
+
+
+.sideTableDiv {
+  height: 700px;
+  background-color: #faf4f4;
+}
+
+.sideDiv {
+  height: 250px;
+}
+
+.side {
+  margin-top: -50px;
+  padding-left: 100px;
+}
+
+.sideTable{
+  font-size: 16px;
+}
+ 
+
+/* asgardSofa */
+
+.asgardSofa {
+  height: 550px;
+}
+
+.asgardHeight{
+  height: 350px;
+}
+.newArrivals {
+  height: 230px;
+  text-align: center;
+}
+
+.newArrivalHeading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.asgardHeading {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+/* Our Blogs */
+.topPics{
+  height:370px;
+}
+.article{
+display: none;
+}
+
+
+.hideOnPC{
+  display: block;
+}
+.crouselItem{
+  width: 100vw;
+  height: 300px;
+}
+.crousalText{
+  color: #000;
+  font-size: 14px;
+}
+  
+
+
+/* Our Instagram  */
+.ourInstagram {
+  height: 300px;
+  background-color: #faf4f4;
+  background-image: url("/OurInstagram/Group 43.png ");
+}
+
+.instaHeading {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.instaFollow {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+
+}
