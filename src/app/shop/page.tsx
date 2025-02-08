@@ -5,7 +5,6 @@ import { HiAdjustmentsHorizontal } from "react-icons/hi2";
 import { HiViewGrid } from "react-icons/hi";
 import { BsViewList } from "react-icons/bs";
 import client from "@/sanityClient";
-import { ProductType } from "@/src/types/product";
 import AllProductComponent from "../components/getAllProducts";
 
 
